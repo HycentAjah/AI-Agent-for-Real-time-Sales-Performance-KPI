@@ -1,1 +1,7 @@
 # AI-Agent-for-Real-time-Sales-Performance-KPI
+
+This project is a synthetic sales performance dashboard built with Python, Pandas, and Streamlit. It simulates CRM data across leads, opportunities, and closed deals, calculates key sales metrics, and displays them through an interactive dashboard. The data generator produces realistic records using Faker, while the KPI calculation agent computes essential metrics such as monthly revenue, average deal size, win rate, pipeline value, and customer acquisition cost.
+
+The dashboard provides a full view of sales performance, pipeline health, lead generation efficiency, and financial indicators like LTV:CAC ratio. It includes stage conversion visualizations, next 30-day forecasts, and a raw data viewer for deeper exploration. The design emphasizes clarity and usability, with styled KPI cards and expandable sections for detailed data inspection. A basic data quality agent flags missing fields to ensure completeness before metrics are calculated.
+
+To run the project, install the required libraries (streamlit, faker, and pandas) and launch the application using streamlit run app.py. The dashboard is ideal for demonstrating sales analytics concepts, testing new visualization ideas, or simulating a CRM environment when real sales data is not available. Future improvements may include adding a real-time alert system, strengthening forecast models, and introducing user authentication for secure access.
